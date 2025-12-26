@@ -32,7 +32,7 @@ debug: print the vector with format-specific fmt
 ```c
 vec4f_t v = {1.0, 2.0, 3.0, 4.0};
 vec4f_t b = vec4f_add(a, vec4f_fill(1.0f));
-vec4i_debug(stdout, "b = ", b);
+vec4f_debug(stdout, "b = ", b);
 ```
 
 Look into main.c for more examples
